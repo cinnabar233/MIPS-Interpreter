@@ -1,0 +1,8 @@
+addi $r1 , $zero , 3 
+addi $r2 , $zero , 3
+mul $r3 , $r1 , $r2 
+addi $r3 , $r3 , -1
+slt $r4 ,  $r1,  $r2
+addi $r5 , $r1 , 4
+
+slt $r1 , $r5 , $r3

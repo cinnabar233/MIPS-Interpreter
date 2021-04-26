@@ -1,0 +1,6 @@
+addi $r1 , $zero , 3 
+addi $r2 , $zero , 0
+loop : 
+	beq $r1 , $r2 ,  exit
+	addi $r2 , $r2 , 1
+exit :
